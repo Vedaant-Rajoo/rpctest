@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"rpclib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 183,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 237,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 242,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"rpclib/librpc.a"
+			],
+			"targetId" : "rpc::@f43d276df927375e860a",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "rpclib/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/rpclib",
+			"exportName" : "rpclibTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rpc::@f43d276df927375e860a",
+					"index" : 1
+				}
+			],
+			"paths" : 
+			[
+				"rpclib/CMakeFiles/Export/lib/cmake/rpclib/rpclibTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/rpclib",
+			"paths" : 
+			[
+				"cmake-build-debug/rpclib/cmake/rpclibConfig.cmake",
+				"cmake-build-debug/rpclib/cmake/rpclibConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/rpclib/rpclib.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "rpclib",
+		"source" : "rpclib"
+	}
+}

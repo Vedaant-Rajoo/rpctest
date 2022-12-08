@@ -1,0 +1,140 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "rpclib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rpclib-Debug-160eafc015af9ac8e581.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "rpclib",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "testrpc",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "rpc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client-Debug-d8cde8e264cd843b7c37.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rpc::@f43d276df927375e860a",
+					"jsonFile" : "target-rpc-Debug-6448c82806e852139bc1.json",
+					"name" : "rpc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-server-Debug-4a648d4a627d42afb836.json",
+					"name" : "server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-8dc9d9b9d20ae18b321b.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testrpc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testrpc-Debug-cc8d0c7f32df7b83b82b.json",
+					"name" : "testrpc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "viewServer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-viewServer-Debug-99fb1ec01c2f74974cd2.json",
+					"name" : "viewServer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/newedia/testrpc/cmake-build-debug",
+		"source" : "/Users/newedia/testrpc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

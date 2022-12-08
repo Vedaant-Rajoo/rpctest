@@ -1,0 +1,21 @@
+# ninja log v5
+2	139	1669074500820098014	rpclib/CMakeFiles/rpc.dir/lib/rpc/this_server.cc.o	d0a7604e11a4a94f
+2	154	1669074500835368931	rpclib/CMakeFiles/rpc.dir/lib/rpc/this_session.cc.o	762eae92855a798a
+9	266	1669087016231058653	CMakeFiles/test.dir/test.cpp.o	5580ef84ae5e3a1d
+3	479	1669074501152312916	rpclib/CMakeFiles/rpc.dir/lib/rpc/detail/client_error.cc.o	209dbea35d090e7f
+3	722	1669074501402175390	rpclib/CMakeFiles/rpc.dir/lib/rpc/detail/response.cc.o	8586319e1ac84890
+155	554	1669074501235126390	rpclib/CMakeFiles/rpc.dir/dependencies/src/posix.cc.o	3c4a43c0661d850c
+3	244	1669074500922962736	rpclib/CMakeFiles/rpc.dir/lib/rpc/nonstd/optional.cc.o	ed76a1dd2b91b9e1
+2	671	1669074501346062720	rpclib/CMakeFiles/rpc.dir/lib/rpc/this_handler.cc.o	9258e3dc44dc32a2
+139	706	1669074501385383544	rpclib/CMakeFiles/rpc.dir/dependencies/src/format.cc.o	689570aa1d26fcec
+3	713	1669074501393190108	rpclib/CMakeFiles/rpc.dir/lib/rpc/rpc_error.cc.o	53884f94c1d7968a
+554	598	1669087024027638362	client	1f70c1d10f44d11a
+1	827	1669074501507289839	rpclib/CMakeFiles/rpc.dir/lib/rpc/dispatcher.cc.o	3b559e18433b265
+3	1069	1669074501748770995	rpclib/CMakeFiles/rpc.dir/lib/rpc/detail/server_session.cc.o	558c12f816792f6
+2	1251	1669074501930067488	rpclib/CMakeFiles/rpc.dir/lib/rpc/client.cc.o	5d92dda37a4acc0e
+1251	1308	1669074501993150000	rpclib/librpc.a	67befe62cfa6cbab
+266	301	1669087016265446497	test	24d39accec1718d
+12	876	1669087012597730927	CMakeFiles/server.dir/server.cpp.o	6096709dd6e09c9e
+9	554	1669087023980589964	CMakeFiles/client.dir/client.cpp.o	63036756422f8d51
+1	1090	1669074501769248955	rpclib/CMakeFiles/rpc.dir/lib/rpc/server.cc.o	8568af3718e5a047
+876	943	1669087012669532349	server	85b4f47fa231d159
